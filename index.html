@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PF v1 MVP</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="opening" class="opening" aria-live="polite">
+      <div class="opening-window">
+        <p class="opening-title">THIS IS ME</p>
+        <p id="typing-line" class="typing-line"></p>
+        <div id="opening-choice" class="opening-choice" role="listbox" aria-label="Opening choice"></div>
+      </div>
+    </div>
+
+    <header class="topbar">
+      <h1>THIS IS ME</h1>
+      <nav>
+        <button data-open-panel="about">ABOUT</button>
+        <button data-open-panel="contact">CONTACT</button>
+        <button id="help-trigger" aria-label="Help">★</button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="gallery-wrap">
+        <h2>HOME / RANDOM GALLERY 9</h2>
+        <div id="gallery" class="gallery-grid"></div>
+      </section>
+    </main>
+
+    <div id="panel-root" aria-live="polite"></div>
+
+    <template id="panel-template">
+      <section class="panel" role="dialog" aria-modal="false">
+        <header class="panel-head">
+          <strong class="panel-title"></strong>
+          <span class="panel-hint">(ESC to close)</span>
+        </header>
+        <div class="panel-body"></div>
+      </section>
+    </template>
+
+    <script src="content.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
