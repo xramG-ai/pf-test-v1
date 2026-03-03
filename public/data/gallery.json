@@ -1,0 +1,14 @@
+[
+  {"id":"g01","filename":"g01.svg","createdAt":"2025-01","tags":["branding","web"],"title":"Brand Sprint","desc":"Kickoff visual direction."},
+  {"id":"g02","filename":"g02.svg","createdAt":"2025-01","tags":["ui","layout"],"title":"Landing Draft","desc":"Early hero and section rhythm."},
+  {"id":"g03","filename":"g03.svg","createdAt":"2025-02","tags":["poster"],"title":"Poster Study","desc":"Type-first poster study."},
+  {"id":"g04","filename":"g04.svg","createdAt":"2025-02","tags":["web","motion"],"title":"Motion Frame","desc":"Transition concept frame."},
+  {"id":"g05","filename":"g05.svg","createdAt":"2025-03","tags":["3d","material"],"title":"Material Test","desc":"Soft material lighting."},
+  {"id":"g06","filename":"g06.svg","createdAt":"2025-03","tags":["art-direction"],"title":"Look Development","desc":"Visual mood board."},
+  {"id":"g07","filename":"g07.svg","createdAt":"2025-04","tags":["ux","prototype"],"title":"Flow Snapshot","desc":"Interaction path test."},
+  {"id":"g08","filename":"g08.svg","createdAt":"2025-04","tags":["illustration"],"title":"Icon Scene","desc":"Simple icon narrative."},
+  {"id":"g09","filename":"g09.svg","createdAt":"2025-05","tags":["editorial"],"title":"Editorial Card","desc":"Grid and contrast experiment."},
+  {"id":"g10","filename":"g10.svg","createdAt":"2025-05","tags":["campaign"],"title":"Campaign Cut","desc":"Campaign sub visual."},
+  {"id":"g11","filename":"g11.svg","createdAt":"2025-06","tags":["concept"],"title":"Concept Tile","desc":"Concept variation A."},
+  {"id":"g12","filename":"g12.svg","createdAt":"2025-06","tags":["concept"],"title":"Concept Tile B","desc":"Concept variation B."}
+]
